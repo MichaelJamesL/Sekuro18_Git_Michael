@@ -1,0 +1,6 @@
+*   efef66f Merge branch 'v1' into v2
+|\  
+| * 32728ab feat: Add comment to main function
+* | ffac240 feat: main function comment to indicate version 2
+|/  
+* afba14f inisiasi github
