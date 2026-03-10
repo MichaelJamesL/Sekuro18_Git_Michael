@@ -1,0 +1,30 @@
+  115  ls
+  116  ls Zulip
+  117  ls zulip
+  118  cd ..
+  119  exit
+  120  deactivate
+  121  cd ..
+  122  cd ~
+  123  cd ..
+  124  ls
+  125  exit
+  126  mkdir recovery_ops
+  127  curl system_raw.txt https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+  128  deactivate
+  129  ls
+  130  cd recovery_ops
+  131  clear
+  132  curl system_raw.txt "https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt"
+  133  ls
+  134  clear
+  135  curl -o system_raw.txt "https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt"
+  136  ls
+  137  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+  138  ls
+  139  nano recovered_sector.txt
+  140  rm system_raw.txt
+  141  code .
+  142  history | tail -n 30 >
+  143  history_audit.txt 
+  144  history | tail -n 30 > history_audit.txt
